@@ -1,0 +1,15 @@
+
+.list_fidbeck{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0px;
+}
+
+.text{
+    display: inline;
+}
+.item{
+    list-style: none;
+    text-align: left;
+    
+}
