@@ -25,7 +25,6 @@ function  onLeaveFeedback ( options)  {
   if(options === 'bad'){
       setBad((prevState => prevState + 1))
   }
- 
  console.log(options);
 };
 return (

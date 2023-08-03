@@ -12,6 +12,7 @@
     color: white;
     /* transition: background  color 6ms; */
     transition: all 500ms ;
+    cursor: pointer;
 }
 .Feedback_button:hover{
     color: black;
