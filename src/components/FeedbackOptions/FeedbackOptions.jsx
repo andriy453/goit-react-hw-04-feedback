@@ -6,7 +6,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <>
       <div className="button-conteiner">
-        {options.map(label => {
+        {options.map((label) => {
           return (
             <button
               className="Feedback_button"
