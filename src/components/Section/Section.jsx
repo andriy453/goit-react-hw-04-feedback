@@ -4,7 +4,8 @@ import Notification from 'components/Notification/Notification';
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 
-const Section = ({title}) =>{
+const Section = ({title}) => {
+  
 const [good , setGood] = useState(0);
 const [ neutral, setNeutral] = useState(0);
 const [ bad , setBad] = useState(0);
